@@ -7,11 +7,13 @@ manifest:
     - name: Dist16384   # あなたのフォーク
       url-base: https://github.com/Dist16384
     - name: caksoylar  # <-- RGB LED
-      url-base: https://github.com/caksoylar  
+      url-base: https://github.com/caksoylar
+    - name: mameshiba
+      url-base: https://github.com/mameshiba55
 
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: mameshiba
       revision: v0.3
       path: zmk
       import: app/west.yml
